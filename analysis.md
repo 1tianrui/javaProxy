@@ -2,6 +2,7 @@
 
 首先明确一点jdkProxy是面向接口的
 
+jdkProxy效率大概是cglib的两倍左右
 
 //首先讲如何使用
 实现一个InvocationHandler接口 ，这个类持有真正实例的引用，invoke方法内做代理行为
